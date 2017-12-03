@@ -9,8 +9,8 @@ Automating instances provisioning with Vagrant and Puppet
  - buildhost - maven versions: 3.0.5, 3.3.9 (default 3.3.9), ansible, oracle jdk8 1.8.0_151
 
 ## prerequestives
-vagrant 1.8+
-virtualbox 5+ at least for windows10
+ - vagrant 1.8+
+ - virtualbox 5+ at least for windows10
 
 ## usage
 clone and run
