@@ -1,6 +1,6 @@
-# dev-pack
+# puppet-demo
 ##description
-Dev VMs pack
+Automating instances provisioning with Vagrant and Puppet
 
 ##tools versions installed
  - CentOS 6.6 x86_64 w/ puppet
@@ -17,7 +17,7 @@ clone and run
 
 Start all VMs
 ```sh
-vagrant up jenkins_server gocd_server agent builder
+vagrant up jenkins_server builder
 ```
 
 Start Jenkins server (IP: 10.0.0.30:8080)
