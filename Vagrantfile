@@ -12,7 +12,6 @@ SHELL
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
-  ##config.vm.box = "bento/centos-6.7"
   config.vm.box = "centos/7"
   config.vm.box_check_update = false
 

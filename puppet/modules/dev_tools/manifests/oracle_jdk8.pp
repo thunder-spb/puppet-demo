@@ -3,7 +3,7 @@
 # 
 # Good example is here: https://github.com/tylerwalts/puppet-jdk_oracle
 #
-# Author: alex thunder shevchenko // iam@thunder.spb.ru
+# Author: alex thunder shevchenko // iam@thunder.spb.ru 2015-2017
 ##
 class dev_tools::oracle_jdk8 (
   $provision_homedir = hiera('provision_homedir'),

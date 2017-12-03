@@ -13,7 +13,7 @@
 #
 # Sample Usage:
 #
-# 2017 alex thunder shevchenko // iam@thunder.spb.ru
+# alex thunder shevchenko // iam@thunder.spb.ru 2017
 #
 # =====================================================
 class vagrant_environment(
