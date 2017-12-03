@@ -1,0 +1,9 @@
+---
+# Default homedir, defaults to /home/vagrant
+# for example for installing maven settings.xml or ssh keys
+default_homedir: '/home/vagrant'
+
+## VMs IP addresses
+jenkins_ip: '10.0.0.30'
+builder_ip: '10.0.0.35'
+

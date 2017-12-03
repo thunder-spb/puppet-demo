@@ -1,0 +1,18 @@
+---
+# ### default http://pkg.jenkins-ci.org/redhat-stable
+# ### ya.ru: http://mirror.yandex.ru/mirrors/jenkins/redhat-stable
+jenkins_mirror_uri: https://pkg.jenkins.io/redhat-stable
+jenkins_version: "2.73.3"
+jenkins_rpm_suffix: "-1.1.noarch.rpm"
+# ### default http://updates.jenkins-ci.org/download/plugins
+# ### ya.ru: http://mirror.yandex.ru/mirrors/jenkins/plugins
+jenkins_plugins_mirror_uri: http://updates.jenkins-ci.org/download/plugins
+
+# Jenkins default plugins preinstall
+jenkins_server::plugin_hash:
+  'git':
+     version: 1.1.1
+  'parameterized-trigger': {}
+  'multiple-scms': {}
+  'git-client': {}
+  'token-macro': {}

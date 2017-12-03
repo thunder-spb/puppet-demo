@@ -1,0 +1,14 @@
+---
+:backends:
+  - yaml
+
+:hierarchy:
+  - categories/%{::category}-%{::environment}
+  - categories/%{::category}-global
+  - platforms/%{::platform}-%{::environment}
+  - platforms/%{::platform}-global
+  - envs/%{::environment}
+  - global
+
+:yaml:
+  :datadir: /vagrant/puppet/hiera

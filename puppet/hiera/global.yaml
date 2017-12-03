@@ -1,0 +1,16 @@
+---
+# Provision Information 
+provision_homedir: '/tmp'
+provision_filedir: "%{hiera('provision_homedir')}/provision"
+
+# Build Information
+maven_versions: [ '3.0.5', '3.3.9' ]
+maven_default: '3.3.9'
+
+groovy_versions: [ '2.4.9' ]
+groovy_default: '2.4.9'
+groovy_uri_prefix: 'http://dl.bintray.com/groovy/maven'
+
+oracle_jdk8_uri: 'http://download.oracle.com/otn-pub/java/jdk/8u151-b12/e758a0de34e24606bca991d704f6dcbf/jdk-8u151-linux-x64.rpm'
+
+
